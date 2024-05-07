@@ -1,5 +1,5 @@
-unsigned long micros_sp, ms=0, currentTime, lastNotifyTime;
-volatile int sp=0,sz=0;
+unsigned long micros_sp, ms = 0, currentTime, lastNotifyTime;
+volatile int sp = 0, sz = 0;
 
 void setup() {
   digitalWrite(13, HIGH);
