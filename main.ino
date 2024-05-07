@@ -10,7 +10,7 @@ void setup() {
   digitalWrite(7, LOW);
 }
 
-void loop(){
+void loop() {
   // SERIAL (TIMER) DEBUG
   currentTime = millis();
   if(currentTime - lastNotifyTime > 5000) {
